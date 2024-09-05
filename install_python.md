@@ -2,8 +2,32 @@
 
 ## Windows
 ### Python 3.x Installation
-### Einstellungen
+
+Lade die neueste Version von Python 3.x vom Microsoft Store herunter. 
+
+Hier findet man die neusten Python Versionen:
+- [Python 3.12](https://www.microsoft.com/store/productId/9NCVDN91XZQP)
+- [Python 3.11](https://www.microsoft.com/store/productId/9NRWMJP3717K)
+- [Python 3.10](https://www.microsoft.com/store/productId/9PJPW5LDXLZ5)
+
+Noch ältere Versionen von Python sollten grundsätzlich nicht mehr verwendet werden.
+
 ### Packages
+Ein Package in Python ist eine Sammlung von Modulen, die bestimmte Funktionen und Werkzeuge enthalten. Ein Modul ist einfach eine Datei, die Python-Code enthält, und ein Package organisiert mehrere dieser Module in einer Struktur, die es einfacher macht, wiederverwendbare Codeblöcke zu verwalten.
+
+Beispiel: Das "numpy"-Package enthält verschiedene Module, die mathematische Funktionen bereitstellen. Wenn du zum Beispiel mit großen Zahlen oder Matrizen arbeiten möchtest, kannst du mit numpy bereits fertige Werkzeuge nutzen, anstatt diese selbst programmieren zu müssen.
+
+Um neue Packages zu installieren, nutze pip. Pip ist ein Paketmanager für Python, der es dir ermöglicht, Packages aus dem Python Package Index (PyPI) zu installieren und zu verwalten.
+
+Um ein Package zu installieren, öffne den Terminal und führe folgenden Befehl aus:
+```powershell
+pip install <PACKAGE1> <PACKAGE2> <PACKAGE3> ...
+```
+
+Beispiel: Um das jupyter- und numpy-Package zu installieren, führe folgende Befehle aus:
+```
+pip install jupyter numpy 
+```
 
 ## macOS
 ### Homebrew Installation
