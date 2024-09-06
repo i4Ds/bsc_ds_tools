@@ -59,5 +59,16 @@ pip3.12 install jupyter numpy --break-system-packages
 ```
 
 ## Aufsetzen der IDE
+Eine **IDE** (Integrated Development Environment) ist eine Software, die Programmierer unterstützt, Code zu schreiben, zu testen und auszuführen. Sie bietet Werkzeuge wie einen Texteditor, Debugging-Tools und oft eine grafische Oberfläche, um Programme effizienter zu entwickeln.
+
+**PyCharm** ist eine beliebte IDE speziell für Python-Programmierung. Es bietet viele nützliche Funktionen wie automatische Vervollständigung von Code, Fehlererkennung, und einfache Integration von Paketen, um die Entwicklung mit Python zu erleichtern.
+
+Für das Modul **Grundkompetenz Programmieren** wird vom Dozent Wolfgang Weck PyCharm empfohlen. Dafür könnt ihr unter folgendem Link eine Studentenlizenz für alle JetBrains IDEs (inklusive PyCharm) anfordern:
+- [JetBrains - Free Educational Licenses](https://www.jetbrains.com/community/education/#students)
+
+Danach könnt ihr über eurem Konto oder über folgenden Link PyCharm herunterladen und installieren:
+- [PyCharm Download](https://www.jetbrains.com/pycharm/)
 
 ## Erste Codezeilen
+
+## Tipps
