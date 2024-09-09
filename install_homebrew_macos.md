@@ -1,7 +1,8 @@
 ### Homebrew Installation
-Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmäßig auf macOS enthalten ist.Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmäßig auf macOS enthalten ist.
-
-Es lohnt sich, Python über Homebrew zu installieren, da es alle komplizierten Einstellungen automatisch für dich erledigt. Läuft mal was schief, kannst du Python schnell neu installieren. Auch die Installation anderer Python Versionen kann mit nur einem Befehl erledigt werden.
+> [!NOTE]
+> Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmäßig auf macOS enthalten ist.Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmäßig auf macOS enthalten ist.
+> 
+> Es lohnt sich, Python über Homebrew zu installieren, da es alle komplizierten Einstellungen automatisch für dich erledigt. Läuft mal was schief, kannst du Python schnell neu installieren. Auch die Installation anderer Python Versionen kann mit nur einem Befehl erledigt werden.
 
 Um Homebrew zu installieren, öffne den Terminal und kopier diesen Befehl hinein:
 ```sh
