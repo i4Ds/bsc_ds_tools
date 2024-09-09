@@ -1,38 +1,23 @@
 # Python Vorbereitung
 
-Python ist eine der beliebtesten Programmiersprachen der Welt. Sie wird in vielen Bereichen eingesetzt, darunter Webentwicklung, Datenanalyse, künstliche Intelligenz und vieles mehr. Python ist bekannt für seine einfache Syntax und seine Vielseitigkeit, was es zu einer großartigen Sprache für Anfänger und Fortgeschrittene macht.
+Python ist eine der beliebtesten Programmiersprachen der Welt. Sie wird in vielen Bereichen eingesetzt, darunter Webentwicklung, Datenanalyse, künstliche Intelligenz und vieles mehr. Python ist bekannt für seine einfache Syntax und seine Vielseitigkeit, was es zu einer grossartigen Sprache für Anfänger und Fortgeschrittene macht.
 
 In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst und einrichtest, um mit dem Programmieren zu beginnen.
 
 ## Installation auf Windows
 
-Hier findest du eine Schritt-für-Schritt-Anleitung, wie du Python auf deinem Windows-Computer installieren kannst:
-
-<details>
-<summary>Python 3.12 Installation</summary><br>
-
 Lade die neueste Version von Python 3.x vom Microsoft Store herunter:
 - [Python 3.12](https://www.microsoft.com/store/productId/9NCVDN91XZQP)
  
 Versionen von Python unter 3.10 sollten grundsätzlich nicht mehr verwendet werden.
-</details>
 
 ## Installation auf macOS
 
-Hier findest du eine Schritt-für-Schritt-Anleitung, wie du Python auf deinem macOS-Computer installieren kannst:
-
-<details>
-<summary>Homebrew Installation</summary><br>
-Homebrew nutzen wir, um Python (und R) zu installieren. 
-
+Um Python auf macOS zu installieren nutzen wir Homebrew.
 Was das ist und wie man es installiert, wird hier erklärt:
 - [Homebrew Installation auf macOS](install_homebrew_macos.md)
-</details><br>
 
-<details>
-<summary>Python 3.12 Installation</summary><br>
 Nutze Homebrew um eine beliebige Python Version zu installieren:
-
 Der Terminal-Befehl dafür lautet wie folgt:
 ```sh
 brew install python@<VERSION>
@@ -44,7 +29,8 @@ brew install python@3.12
 ```
 
 ![](https://i.imgur.com/w7OPLAx.gif)
-</details>
+
+Versionen von Python unter 3.10 sollten grundsätzlich nicht mehr verwendet werden.
 
 ## Packages
 > [!NOTE]
