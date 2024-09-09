@@ -1,6 +1,13 @@
 # Python Vorbereitung
 
+Python ist eine der beliebtesten Programmiersprachen der Welt. Sie wird in vielen Bereichen eingesetzt, darunter Webentwicklung, Datenanalyse, künstliche Intelligenz und vieles mehr. Python ist bekannt für seine einfache Syntax und seine Vielseitigkeit, was es zu einer großartigen Sprache für Anfänger und Fortgeschrittene macht.
+
+In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst und einrichtest, um mit dem Programmieren zu beginnen.
+
 ## Installation auf Windows
+
+Hier findest du eine Schritt-für-Schritt-Anleitung, wie du Python auf deinem Windows-Computer installieren kannst:
+
 <details>
 <summary>Python 3.12 Installation</summary><br>
 
@@ -11,6 +18,9 @@ Versionen von Python unter 3.10 sollten grundsätzlich nicht mehr verwendet werd
 </details>
 
 ## Installation auf macOS
+
+Hier findest du eine Schritt-für-Schritt-Anleitung, wie du Python auf deinem macOS-Computer installieren kannst:
+
 <details>
 <summary>Homebrew Installation</summary><br>
 Homebrew nutzen wir, um Python (und R) zu installieren. 
