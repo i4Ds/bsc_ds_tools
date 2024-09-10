@@ -46,3 +46,7 @@ Mehr dazu findest du in der [RStudio-Dokumentation](https://docs.posit.co/ide/us
 Es ist möglich die Umgebung (Variablen, Funktionen, etc.) in RStudio zu speichern. Dies wird für den Anfang nicht empfohlen da es zu Verwirrung führen kann. Daher wird diese Option abgeschaltet:
 
 1. Gehe zu `Tools` > `Global Options` > `General`. Unter dem Punkt `Workspace` setze den Punkt `Save workspace to .RData on exit` auf `Never`.
+
+# Packages
+
+Packages erweitern die Funktionalität von R. Es gibt tausende von Packages, die für verschiedene Anwendungen entwickelt wurden. Packages können über den Tab `Packages` installiert werden. Alternativ können Packages in der RStudio-Console mit dem Befehl `install.packages("package_name")` installiert werden. Das Package `tidyverse` sollte bei jeder R-Installation dazu installiert werden.
