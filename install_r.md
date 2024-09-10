@@ -51,6 +51,16 @@ Es ist möglich die Umgebung (Variablen, Funktionen, etc.) in RStudio zu speiche
 
 Packages erweitern die Funktionalität von R. Es gibt tausende von Packages, die für verschiedene Anwendungen entwickelt wurden. Packages können über den Tab `Packages` installiert werden. Alternativ können Packages in der RStudio-Console mit dem Befehl `install.packages("package_name")` installiert werden. Das Package `tidyverse` sollte bei jeder R-Installation dazu installiert werden.
 
+Um zu überprüfen, ob `tidyverse` installitert ist, kann z. B. folgender Code ausgeführt werden:
+
+``` r
+library(ggplot2)
+mpg_plot <- ggplot(mpg, aes(x=displ, y = hwy)) +
+  geom_point(aes(colour = class))
+
+mpg_plot
+```
+
 ## Einführung in R
 
 W3Schools bietet eine [Einführung in R](https://www.w3schools.com/r/) an. Diese ist für Studis im ersten Semester sehr hilfreich, um die Grundlagen von R zu lernen.
