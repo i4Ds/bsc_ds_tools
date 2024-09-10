@@ -1,10 +1,14 @@
-# R und RStudio Installation
+# R und RStudio
 
 R und RStudio sind kostenlose, quelloffene Werkzeuge, die für statistische Berechnungen und Datenvisualisierung verwendet werden. R ist die Programmiersprache und RStudio ist das Werkzeug, um R-Code zu schreiben und auszuführen. R wird im Modul [Explorative Datenanalyse (EDA)](https://spaces.technik.fhnw.ch/spaces/explorative-datenanalyse) verwendet, in dem die Studierenden lernen, wie man Daten mit R einliest, bereinigt, visualisiert und analysiert. [Programmieren in R (PRR)](https://spaces.technik.fhnw.ch/spaces/programmieren-in-r) bietet einen tiefergehenden Einblick in das Programmieren mit R.
 
 ## Auf Windows installieren
 
 Dieser R-Bloggers-Blogpost [Tutorial: Getting Started with R and RStudio](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/) bietet eine Schritt-für-Schritt-Anleitung zur Installation von R und RStudio auf Windows. Er bietet auch einen Anleitung für die Installation unter macOS, aber für macOS gibt es hier eine spezifischere Anleitung im nächsten Abschnitt.
+
+### Installieren für fortgeschrittene Benutzer
+
+Für all die ohne Anleitung auskommen, RStudio und R könne hier heruntergeladen werden: [RStudio Download](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/).
 
 ## Auf macOS installieren
 
@@ -22,11 +26,7 @@ Dieser R-Bloggers-Blogpost [Tutorial: Getting Started with R and RStudio](https:
     brew install --cask rstudio
     ```
 
-## Für fortgeschrittene Benutzer
-
-Für all die ohne Anleitung auskommen, RStudio und R könne hier heruntergeladen werden: [RStudio Download](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/).
-
-# RStudio
+## RStudio kennenlernen
 
 RStudio ist in vier Bereiche unterteilt:
 
@@ -41,12 +41,12 @@ Bild:
 
 Mehr dazu findest du in der [RStudio-Dokumentation](https://docs.posit.co/ide/user/ide/guide/ui/ui-panes.html).
 
-## Umgebung speichern
+### Umgebung speichern
 
 Es ist möglich die Umgebung (Variablen, Funktionen, etc.) in RStudio zu speichern. Dies wird für den Anfang nicht empfohlen da es zu Verwirrung führen kann. Daher wird diese Option abgeschaltet:
 
 1. Gehe zu `Tools` > `Global Options` > `General`. Unter dem Punkt `Workspace` setze den Punkt `Save workspace to .RData on exit` auf `Never`.
 
-# Packages
+## Packages
 
 Packages erweitern die Funktionalität von R. Es gibt tausende von Packages, die für verschiedene Anwendungen entwickelt wurden. Packages können über den Tab `Packages` installiert werden. Alternativ können Packages in der RStudio-Console mit dem Befehl `install.packages("package_name")` installiert werden. Das Package `tidyverse` sollte bei jeder R-Installation dazu installiert werden.
