@@ -1,30 +1,23 @@
-# Install R and RStudio
+# R und RStudio Installation
 
-R and RStudio are free, open-source software that are used for statistical computing and data visualization. R is the programming language and RStudio is the tool to write and run R code.
+R und RStudio sind kostenlose, quelloffene Werkzeuge, die für statistische Berechnungen und Datenvisualisierung verwendet werden. R ist die Programmiersprache und RStudio ist das Werkzeug, um R-Code zu schreiben und auszuführen. R wird im Modul [Explorative Datenanalyse (EDA)](https://spaces.technik.fhnw.ch/spaces/explorative-datenanalyse) verwendet, in dem die Studierenden lernen, wie man Daten mit R einliest, bereinigt, visualisiert und analysiert. [Programmieren in R (PRR)](https://spaces.technik.fhnw.ch/spaces/programmieren-in-r) bietet einen tiefergehenden Einblick in das Programmieren mit R.
 
-## Install on Windows
+## Auf Windows installieren
 
-Follow the instructions on this page: [Tutorial: Getting Started with R and RStudio](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/)
+Dieser R-Bloggers-Blogpost [Tutorial: Getting Started with R and RStudio](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/) bietet eine Schritt-für-Schritt-Anleitung zur Installation von R und RStudio auf Windows. Er bietet auch einen Anleitung für die Installation unter macOS, aber für macOS gibt es hier eine spezifischere Anleitung im nächsten Abschnitt.
 
-## Install on Mac
+## Auf macOS installieren
 
-Open the program `Terminal` and run the following commands:
+1. Um R auf macOS zu installieren, nutzen wir Homebrew. Was das ist und wie man es installiert, wird hier erklärt: [Homebrew Installation auf macOS](install_homebrew_macos.md)á
 
-1. Install brew:
-
-    ``` zsh
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-
-1. Install R:
+2. Um R zu installieren, führe folgenden Befehl im Terminal aus:
 
     ``` zsh
     brew install --cask r
     ```
 
-1. Install RStudio:
+3. Um RStudio zu installieren, führe folgenden Befehl im Terminal aus:
 
     ``` zsh
     brew install --cask rstudio
     ```
-
