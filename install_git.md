@@ -68,33 +68,33 @@ Ein Repository ist ein Ordner, in dem Code gespeichert wird. Wird ein Ordner von
 
 ## Repository clonen
 
-    1. Auf den grünen Button `Code` klicken und dann auf `Open with GitHub Desktop`:
-        ![GitHub Repo Clonen](images/github_clone.png)
-    2. Meldung dass GitHub Desktop geöffnet werden soll bestätigen:
-    3. Ordner auswählen, in dem das Repository gespeichert werden soll:
-        ![GitHub Repo Clonen](images/github_clone2.png)
+1. Auf den grünen Button `Code` klicken und dann auf `Open with GitHub Desktop`:
+    ![GitHub Repo Clonen](images/github_clone.png)
+2. Meldung dass GitHub Desktop geöffnet werden soll bestätigen:
+3. Ordner auswählen, in dem das Repository gespeichert werden soll:
+    ![GitHub Repo Clonen](images/github_clone2.png)
 
 ## Änderungen machen und pushen (hochladen)
 
-   1. Ordner mit Editor (z. B. RStudio, PyCharm, Visual Studio Code) öffnen.
-   2. Dateien bearbeiten.
-   3. In GitHub Desktop eine "auf `Commit to main` klicken:
-        ![GitHub Desktop Commit](images/github_commit.png)
-   4. Änderungen auf GitHub "pushen" in dem man auf `Push origin` klickt.
+1. Ordner mit Editor (z. B. RStudio, PyCharm, Visual Studio Code) öffnen.
+2. Dateien bearbeiten.
+3. In GitHub Desktop eine "auf `Commit to main` klicken:
+    ![GitHub Desktop Commit](images/github_commit.png)
+4. Änderungen auf GitHub "pushen" in dem man auf `Push origin` klickt.
 
 ## Änderungen von anderen holen
 
-   1. In GitHub Desktop auf `Fetch origin` klicken.
-   2. In GitHub Desktop auf `Pull origin` klicken.
+1. In GitHub Desktop auf `Fetch origin` klicken.
+2. In GitHub Desktop auf `Pull origin` klicken.
 
 ## Konflikte erzeugen und lösen (Optional, für Fotgeschrittene)
 
 Sollten Konflikte oder andere Probleme mit Git auftreten, ist es am Anfang hilfreich, wenn man sich Hilfe bei den Floor Coaches, Dozenten oder anderen Studys holt.
 
-   1. Zwei Personen bearbeiten die gleiche Datei.
-   2. Person 1 pusht die Änderungen.
-   3. Person 2 pusht die Änderungen.
-   4. Person 2 erhält eine Fehlermeldung, dass die Änderungen nicht gepusht werden können.
-   5. Person 2 holt die Änderungen von Person 1.
-   6. Person 2 löst die Konflikte.
-   7. Person 2 pusht die Änderungen.
+1. Zwei Personen bearbeiten die gleiche Datei.
+2. Person 1 pusht die Änderungen.
+3. Person 2 pusht die Änderungen.
+4. Person 2 erhält eine Fehlermeldung, dass die Änderungen nicht gepusht werden können.
+5. Person 2 holt die Änderungen von Person 1.
+6. Person 2 löst die Konflikte.
+7. Person 2 pusht die Änderungen.
