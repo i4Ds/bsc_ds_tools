@@ -17,7 +17,7 @@ Für all die ohne Anleitung auskommen, RStudio und R könne hier heruntergeladen
 2. Um R zu installieren, führe folgenden Befehl im Terminal aus:
 
     ``` zsh
-    brew install --cask r
+    brew install r
     ```
 
 3. Um RStudio zu installieren, führe folgenden Befehl im Terminal aus:
