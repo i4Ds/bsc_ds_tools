@@ -64,3 +64,13 @@ mpg_plot
 ## Einführung in R
 
 W3Schools bietet eine [Einführung in R](https://www.w3schools.com/r/) an. Diese ist für Studis im ersten Semester sehr hilfreich, um die Grundlagen von R zu lernen.
+
+## Cheatsheets
+
+Hier befindet sich eine grosse Sammlung an [Cheatsheets](https://posit.co/resources/cheatsheets/)
+
+Die wichtigsten Cheatsheets:
+- [RStudio](https://rstudio.github.io/cheatsheets/rstudio-ide.pdf)
+- [Tidying data with tidyr](https://rstudio.github.io/cheatsheets/tidyr.pdf)
+- [Data transformation with dplyr](https://rstudio.github.io/cheatsheets/data-transformation.pdf)
+- [Data visualization with ggplot2](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
