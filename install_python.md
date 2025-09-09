@@ -6,9 +6,31 @@ In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst u
 
 ## Installation auf Windows
 
-Lade die neueste Version von Python 3.x vom Microsoft Store herunter:
-- [Python 3.12](https://www.microsoft.com/store/productId/9NCVDN91XZQP)
- 
+Lade die neueste Version von Python 3.x direkt von der offiziellen Python-Website herunter:
+
+* [Python 3.12 Download (Windows Installer)](https://www.python.org/downloads/windows/)
+
+1. Öffne die Seite und klicke auf den entsprechenden Installer für dein System:
+
+   * **Windows installer (64-bit)** (empfohlen)
+   * Falls dein Computer noch 32-bit nutzt, wähle den **Windows installer (32-bit)**
+
+2. Führe die heruntergeladene `.exe`-Datei aus.
+   **Wichtig:** Setze im Installer den Haken bei
+   **"Add Python 3.x to PATH"**, bevor du auf **Install Now** klickst.
+
+3. Warte, bis die Installation abgeschlossen ist. Danach kannst du in der Eingabeaufforderung (CMD) prüfen, ob alles funktioniert:
+
+   ```sh
+   python --version
+   ```
+
+   oder
+
+   ```sh
+   py --version
+   ```
+
 Versionen von Python unter 3.10 sollten grundsätzlich nicht mehr verwendet werden.
 
 ## Installation auf macOS
