@@ -4,11 +4,8 @@ R und RStudio sind kostenlose, quelloffene Werkzeuge, die für statistische Bere
 
 ## Auf Windows installieren
 
-Dieser R-Bloggers-Blogpost [Tutorial: Getting Started with R and RStudio](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/) bietet eine Schritt-für-Schritt-Anleitung zur Installation von R und RStudio auf Windows. Er bietet auch einen Anleitung für die Installation unter macOS, aber für macOS gibt es hier eine spezifischere Anleitung im nächsten Abschnitt.
-
-### Installieren für fortgeschrittene Benutzer
-
-Für all die ohne Anleitung auskommen, RStudio und R könne hier heruntergeladen werden: [RStudio Download](https://www.r-bloggers.com/2020/08/tutorial-getting-started-with-r-and-rstudio/).
+1. R herunterladen und installieren: https://cran.r-project.org/bin/windows/base/
+2. R Studio von dieser Webseite herunterladen und installieren: https://posit.co/download/rstudio-desktop/
 
 ## Auf macOS installieren
 
