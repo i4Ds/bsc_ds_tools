@@ -83,10 +83,10 @@ pip3.12 install numpy jupyter --break-system-packages
 > 
 > **PyCharm** ist eine beliebte IDE speziell für Python-Programmierung. Es bietet viele nützliche Funktionen wie automatische Vervollständigung von Code, Fehlererkennung und einfache Integration von Paketen, um die Entwicklung mit Python zu erleichtern.
 
-Für das Modul `gpr - Grundkompetenz Programmieren` wird vom Dozenten Wolfgang Weck empfohlen, PyCharm zu verwenden. Dafür könnt ihr unter folgendem Link eine Studentenlizenz für alle JetBrains IDEs (inklusive PyCharm) anfordern:
+Für das Modul `gpr - Grundkompetenz Programmieren` wird empfohlen PyCharm zu verwenden (es ist natürlich auch erlaubt VS Code oder andere Editoren zu verwenden).  Für PyCharm könnt ihr unter folgendem Link eine Studentenlizenz für alle JetBrains IDEs (inklusive PyCharm) anfordern:
 - [JetBrains - Free Educational Licenses](https://www.jetbrains.com/community/education/#students)
 
-Danach könnt ihr über euren Konto oder über folgenden Link PyCharm herunterladen und installieren:
+Danach könnt ihr über eures Konto oder über folgenden Link PyCharm herunterladen und installieren:
 - [PyCharm Download](https://www.jetbrains.com/pycharm/)
 
 oder über Homebrew (MacOS):
