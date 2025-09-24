@@ -2,7 +2,7 @@
 
 ## Begriffe
 
-- **GitHub**: ist wie Google Drive aber für Code. Es ist ein Ort, an dem Code gespeichert, geteilt, und bearbeitet werden kann.
+- **GitHub**/**GitLab**: ist wie Google Drive aber für Code. Es ist ein Ort, an dem Code gespeichert, geteilt, und bearbeitet werden kann.
 - **Git**: GitHub verwendet Git im Hintergrund. Git macht die eigentliche Arbeit, GitHub ist die Webseite, die uns die Arbeit erleichtert.
 - **GitHub Desktop**: ist ein Tool, mit dem wir Git und GitHub bedienen können.
 
