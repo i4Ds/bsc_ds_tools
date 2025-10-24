@@ -1,6 +1,6 @@
 ### Homebrew Installation
 > [!NOTE]
-> Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmäßig auf macOS enthalten ist.Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmäßig auf macOS enthalten ist.
+> Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmässig auf macOS enthalten ist.
 > 
 > Es lohnt sich, Python über Homebrew zu installieren, da es alle komplizierten Einstellungen automatisch für dich erledigt. Läuft mal was schief, kannst du Python schnell neu installieren. Auch die Installation anderer Python Versionen kann mit nur einem Befehl erledigt werden.
 
@@ -20,3 +20,20 @@ Brew ist nun installiert und einsatzbereit. Du kannst das testen, indem du folge
 brew --version
 ```
 Dabei sollte dir die Brew-Version angezeigt werden.
+
+### Mit Homebrew Programme automatisch aktualisieren
+
+Homebrew kann nicht nur Programme installieren, sondern auch automatisch auf dem neuesten Stand halten. Um alle installierten Programme zu aktualisieren, kannst du folgenden Befehl verwenden:
+```sh
+brew update && brew upgrade && brew uprage --cask
+```
+
+Um dies automatisch alle 12 Stunden laufen zu lassen, kannst du folgendes tun:
+
+```sh
+brew tap homebrew/autoupdate  # Tap the autoupdate repository
+brew install pinentry-mac  # Install pinentry-mac for secure password entry
+brew autoupdate start $((60*60*12)) --ac-only --upgrade --sudo --immediate --cleanup
+```
+
+Allgemein ist es empfehlenswert, Programme regelmässig zu aktualisieren (Sicherheitsupdates). Zu beberken ist aber: dies installiert nicht auschliesslich Sicherheitsupdates, sondern alle verfügbaren Updates, besser als keine Updates.
