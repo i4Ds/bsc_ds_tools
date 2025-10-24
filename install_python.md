@@ -31,7 +31,7 @@ Lade die neueste Version von Python 3.x direkt von der offiziellen Python-Websit
    py --version
    ```
 
-Versionen von Python unter 3.10 sollten grundsätzlich nicht mehr verwendet werden.
+Versionen von Python unter 3.12 sollten grundsätzlich nicht mehr verwendet werden.
 
 ## Installation auf macOS
 
@@ -52,7 +52,7 @@ brew install python@3.12
 
 ![](https://i.imgur.com/w7OPLAx.gif)
 
-Versionen von Python unter 3.10 sollten grundsätzlich nicht mehr verwendet werden.
+Versionen von Python unter 3.12 sollten grundsätzlich nicht mehr verwendet werden.
 
 ## Packages
 > [!NOTE]
