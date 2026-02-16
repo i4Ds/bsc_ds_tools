@@ -6,7 +6,7 @@ In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst u
 
 ## Python installieren
 
-Wie du Python am besten Installiert, hängt vom Betriebssystem ab. Hier findest du die jeweilige Anleitung:
+Wie du Python am besten installierst, hängt vom Betriebssystem ab. Hier findest du die jeweilige Anleitung:
 - [Windows](install_choco_windows.md)
 - [macOS](install_homebrew_macos.md)
 
@@ -89,7 +89,7 @@ Mehr kurze Beispiele findest du in der [Python Kurzreferenz](python_kurzreferenz
 ### Erklärung zum Code
 
 > [!NOTE]
-> Variablen sind Container für Daten. In diesem Fall haben wir zwei Variablen `a` und `b`, welche die Zahlen 5 und 10 haben. Mit `print()` können wir Text und Variablen auf der Konsole ausgeben. Um Text auszugeben, schreiben wir den Text in Anführungszeichen in die Klammern. 
+> Variablen sind Container für Daten. In diesem Fall haben wir zwei Variablen `a` und `b`, welche die Zahlen 5 und 10 haben. Mit `print()` können wir Text und Variablen auf der Konsole ausgeben. Um Text auszugeben, schreiben wir den Text in Anführungszeichen in die Klammern.
 
 > [!TIP]
 > Gerne kannst du ausprobieren, was passiert, wenn du die Addition (+) durch eine Multiplikation (*), eine Division (/) oder eine Subtraktion (-) ersetzt.
