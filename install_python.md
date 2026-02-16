@@ -6,7 +6,7 @@ In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst u
 
 ## Python installieren
 
-Wie du Python am besten Installiert, hängt vom Betriebsystem ab. Hier findest du die jeweilige Anleitung:
+Wie du Python am besten Installiert, hängt vom Betriebssystem ab. Hier findest du die jeweilige Anleitung:
 - [Windows](install_choco_windows.md)
 - [macOS](install_homebrew_macos.md)
 
@@ -38,43 +38,28 @@ Das erstellt ein `pyproject.toml`-File, in welchem die installierten Packages un
 ## Installation der IDE
 > [!NOTE]
 > Eine **IDE** (Integrated Development Environment) ist eine Software, die Programmierer unterstützt, Code zu schreiben, zu testen und auszuführen. Sie bietet Werkzeuge wie einen Texteditor, Debugging-Tools und oft eine grafische Oberfläche, um Programme effizienter zu entwickeln.
-> 
-> **PyCharm** ist eine beliebte IDE speziell für Python-Programmierung. Es bietet viele nützliche Funktionen wie automatische Vervollständigung von Code, Fehlererkennung und einfache Integration von Paketen, um die Entwicklung mit Python zu erleichtern.
+>
+> **VS Code** ist ein schlanker Editor mit guten Python-Erweiterungen.
 
-Für das Modul `gpr - Grundkompetenz Programmieren` wird empfohlen PyCharm zu verwenden (es ist natürlich auch erlaubt VS Code oder andere Editoren zu verwenden).  Für PyCharm könnt ihr unter folgendem Link eine Studentenlizenz für alle JetBrains IDEs (inklusive PyCharm) anfordern:
-- [JetBrains - Free Educational Licenses](https://www.jetbrains.com/community/education/#students)
+Für das Modul `gpr - Grundkompetenz Programmieren` wird empfohlen, VS Code zu verwenden.
 
-Danach könnt ihr über eures Konto oder über folgenden Link PyCharm herunterladen und installieren:
-- [PyCharm Download](https://www.jetbrains.com/pycharm/)
-
-oder über Homebrew (MacOS):
+macOS (Homebrew):
 ```sh
-brew install --cask pycharm
+brew install --cask visual-studio-code
 ```
 
-Danach kann man die PyCharm IDE starten und sie mit dem JetBrains Account aktivieren.
-
-![](https://i.imgur.com/qOy4Pu6.png)
+Windows (Chocolatey, PowerShell als Administrator):
+```powershell
+choco install vscode -y
+```
 
 Du bist jetzt bereit, Python-Code zu schreiben und auszuführen!
 
 ## Erste Codezeilen
 
-Öffne PyCharm und erstelle ein neues Projekt. Dafür drücke auf den `New Project` Button.
+Öffne VS Code und dann deinen Projektordner (`Datei` > `Ordner öffnen...`).
 
-![](https://i.imgur.com/jQmD7wn.png)
-
-Danach kannst du den Projektnamen und den Speicherort auswählen. Übernehme den Projektnamen und die Einstellungen des untenstehenden Bildes und drücke auf `Create`.
-
-![](https://i.imgur.com/kj7ATCk.png)
-
-Jetzt hat PyCharm ein neues Projekt erstellt und die Entwicklungsumgebung geöffnet. Auf der linken Seite hat sich ein Reiter geöffnet, welcher alle Dateien im Projekt anzeigt.
-
-Mach einen Rechtsklick auf das Projekt, drücke auf `Neu` und schlussendlich auf `Python File`. Jetzt öffnet sich ein Fenster mit einer Textbox und drei Optionen. Schreib in die Textbox `beispiel`, wähle die Option `Python file` und drücke Enter.
-
-Jetzt hat PyCharm eine beispiel.py Datei erstellt, welche man im linken Reiter sehen kann. 
-
-Gleichzeitig hat sich rechts ein neues Fenster geöffnet, in welchem man die neu erstellte Datei sehen und editieren kann.
+Erstelle im Explorer eine neue Datei mit dem Namen `beispiel.py`.
 
 Schreibe in die Datei folgenden Code:
 ```python
@@ -85,9 +70,17 @@ print("Die Variablen a + b addiert ergeben:")
 print(a + b)
 ```
 
-Drücke auf das grüne Play-Symbol, um den Code auszuführen. Die Ausgabe sollte folgendermassen aussehen:
+Öffne danach in VS Code ein Terminal (`Terminal` > `Neues Terminal`) und initialisiere das Projekt (das musst du nur einmal machen):
+```sh
+uv init
+```
 
-![](https://i.imgur.com/r3YnJZW.png)
+Führe danach aus:
+```sh
+uv run python beispiel.py
+```
+
+Wenn du `beispiel.py` anpasst, musst du den Befehl `uv run python beispiel.py` jedes Mal erneut ausführen, damit du den neuen Output siehst.
 
 Glückwunsch! Du hast soeben deinen ersten Python-Code geschrieben und ausgeführt.
 
