@@ -24,22 +24,27 @@ brew --version
 ```
 Dabei sollte dir die Brew-Version angezeigt werden.
 
-### Mit Homebrew Programme automatisch aktualisieren
 
-Homebrew kann nicht nur Programme installieren, sondern auch automatisch auf dem neuesten Stand halten. Um alle installierten Programme zu aktualisieren, kannst du folgenden Befehl verwenden:
-```sh
-brew update && brew upgrade && brew uprage --cask
-```
+## Mit Brew installierte Programme aktualisieren
 
-Um dies automatisch alle 12 Stunden laufen zu lassen, kannst du folgendes tun:
+Um alle über Homebrew installierten Programme auf den neuesten Stand zu bringen:
 
 ```sh
-brew tap homebrew/autoupdate  # Tap the autoupdate repository
-brew install pinentry-mac  # Install pinentry-mac for secure password entry
-brew autoupdate start $((60*60*12)) --ac-only --upgrade --sudo --immediate --cleanup
+brew update
+brew upgrade
 ```
 
-Allgemein ist es empfehlenswert, Programme regelmässig zu aktualisieren (Sicherheitsupdates). Zu beberken ist aber: dies installiert nicht auschliesslich Sicherheitsupdates, sondern alle verfügbaren Updates, besser als keine Updates.
+`brew update` aktualisiert Homebrew selbst, `brew upgrade` aktualisiert alle installierten Formulae.
+
+### Brew-Programme automatisch aktualisieren (optional, empfohlen)
+
+Statt manuell `brew update` und `brew upgrade` auszuführen, kannst du Homebrew so einrichten, dass es sich automatisch im Hintergrund aktualisiert. Das sorgt dafür, dass deine installierten Programme immer auf dem neuesten Stand sind:
+
+```sh
+brew install pinentry-mac && brew tap homebrew/autoupdate && brew autoupdate start --upgrade --cleanup --immediate --sudo --ac-only
+```
+
+Dieser Befehl installiert `pinentry-mac` (für sichere Passwort-Eingabe), aktiviert das `autoupdate`-Plugin und startet automatische Updates mit Upgrade, Cleanup und sofortiger Ausführung.
 
 ## uv installieren
 
@@ -54,28 +59,6 @@ Nach der Installation kannst du die Version prüfen:
 ```sh
 uv --version
 ```
-
-## Mit Brew installierte Programme aktualisieren
-
-Um alle über Homebrew installierten Programme auf den neuesten Stand zu bringen:
-
-```sh
-brew update
-brew upgrade
-```
-
-`brew update` aktualisiert Homebrew selbst, `brew upgrade` aktualisiert alle installierten Formulae.
-
-## Brew-Programme automatisch aktualisieren (optional, empfohlen)
-
-Statt manuell `brew update` und `brew upgrade` auszuführen, kannst du Homebrew so einrichten, dass es sich automatisch im Hintergrund aktualisiert. Das sorgt dafür, dass deine installierten Programme immer auf dem neuesten Stand sind:
-
-```sh
-brew install pinentry-mac && brew tap homebrew/autoupdate && brew autoupdate start --upgrade --cleanup --immediate --sudo --ac-only
-```
-
-Dieser Befehl installiert `pinentry-mac` (für sichere Passwort-Eingabe), aktiviert das `autoupdate`-Plugin und startet automatische Updates mit Upgrade, Cleanup und sofortiger Ausführung.
-
 ## Python mit uv installieren
 
 Eine Python-Version installierst du so (z. B. 3.13). Mit `--default` landet sie im PATH, dann funktioniert `python` überall:
