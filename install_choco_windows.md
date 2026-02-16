@@ -81,11 +81,10 @@ uv --version
 `uv` kann Python‑Versionen für dich installieren und verwalten. Damit du Python wie gewohnt mit `python myscript.py` verwenden kannst, installierst du eine Version als Standard‑Python. Der folgende Befehl installiert z. B. Python 3.13, registriert sie als Standard und sorgt dafür, dass `python` im `PATH` verfügbar ist:
 
 ```powershell
-uv python install --default --preview 3.13
+uv python install --default 3.13
 ```
 
 - `--default`: richtet `python` / `python3`‑Aufrufe auf diese Version aus  
-- `--preview`: schaltet die Warnung ab, dass `--default` ein experimentelles Feature ist
 
 Wenn der Befehl erfolgreich war, kannst du die Installation testen:
 
