@@ -144,7 +144,7 @@ Glückwunsch! Du hast soeben deinen ersten Python-Code geschrieben und ausgefüh
 ## Tipps
 
 > [!TIP]
-> Floorcoaches sind jeden Dienstag und Donnerstag am von 09:00 bis 11:00 und von 14:00 bis 16:00 im 5.3 anwesend. Sie helfen dir bei Fragen zu Python, R und anderen Modulen. Nutze diese Ressource!
+> Floorcoaches sind jeden Dienstag und Donnerstag am von 10:00 bis 12:00 und von 14:00 bis 16:00 im 5.3 anwesend. Sind sind mit ihren neonfarbigen Westen nicht zu übersehen. Sie helfen dir bei Fragen zu Python, anderen Modulen und allem rund ums Studium. Nutze diese Ressource!
 
 > [!IMPORTANT]
 > Geht unbedingt in die `gpr - Grundkompetenz Programmieren` Kontaktstunden! Personen, welche regelmässig in die Sprechstunden gehen, haben eine DEUTLICH höhere Erfolgsrate. Je öfter, desto besser, jedoch muss es nicht jede Woche sein.
