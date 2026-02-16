@@ -1,9 +1,9 @@
-# Homebrew
+# Homebrew (macOS)
 
 > [!NOTE]
 > Homebrew ist ein Paketmanager für macOS. Er erleichtert die Installation und Verwaltung von Software, die nicht standardmässig auf macOS enthalten ist.
 > 
-> Es lohnt sich, Python über `uv` zu instalieren, da es den Installationsprozess vereinfacht. `uv` installieren wir mittels Homebrew. Läuft mal was schief, kannst du Python schnell neu installieren. Auch die Installation anderer Python Versionen kann mit nur einem Befehl erledigt werden. Im Module [GPR](https://spaces.informatik.fhnw.ch/spaces/grundkompetenz-programmieren) werdet ihr `uv` näher kennenlernen.
+> Es lohnt sich, Python über `uv` zu installieren, da es den Installationsprozess vereinfacht. `uv` installieren wir mittels Homebrew. Läuft mal was schief, kannst du Python schnell neu installieren. Auch die Installation anderer Python Versionen kann mit nur einem Befehl erledigt werden. Im Module [GPR](https://spaces.informatik.fhnw.ch/spaces/grundkompetenz-programmieren) werdet ihr `uv` näher kennenlernen.
 
 ## Homebrew Installation
 
@@ -67,7 +67,7 @@ Eine Python-Version installierst du so (z. B. 3.13). Mit `--default` landet si
 uv python install --default 3.13
 ```
 
-### Pyton-Dateien ausführen
+### Python-Dateien ausführen
 
 Danach kannst du wie folgt Python-Dateien ausführen:
 
@@ -77,6 +77,6 @@ python my_script.py
 
 In einem Projekt mit `pyproject.toml` nutzt du später `uv run python`, damit die richtige Version und Umgebung verwendet wird.
 
-### Pytyhon interaktiv ausprobieren
+### Python interaktiv ausprobieren
 
 Du kannst auch die Python-Konsole starten: `python` eingeben, dort z. B. `10*10` eingeben und mit der Entertaste bestätigen und mit `exit()` oder Strg+D wieder verlassen.
