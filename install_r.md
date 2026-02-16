@@ -4,8 +4,8 @@ R und RStudio sind kostenlose, quelloffene Werkzeuge, die für statistische Bere
 
 ## Auf Windows installieren
 
-1. R herunterladen und installieren: https://cran.r-project.org/bin/windows/base/
-2. R Studio von dieser Webseite herunterladen und installieren: https://posit.co/download/rstudio-desktop/
+1. R herunterladen und installieren: <https://cran.r-project.org/bin/windows/base/>
+2. R Studio von dieser Webseite herunterladen und installieren: <https://posit.co/download/rstudio-desktop/>
 
 ## Auf macOS installieren
 
@@ -67,6 +67,7 @@ W3Schools bietet eine [Einführung in R](https://www.w3schools.com/r/) an. Diese
 Hier befindet sich eine grosse Sammlung an [Cheatsheets](https://posit.co/resources/cheatsheets/)
 
 Die wichtigsten Cheatsheets:
+
 - [RStudio](https://rstudio.github.io/cheatsheets/rstudio-ide.pdf)
 - [Tidying data with tidyr](https://rstudio.github.io/cheatsheets/tidyr.pdf)
 - [Data transformation with dplyr](https://rstudio.github.io/cheatsheets/data-transformation.pdf)

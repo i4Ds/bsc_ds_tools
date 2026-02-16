@@ -7,10 +7,12 @@ In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst u
 ## Python installieren
 
 Wie du Python am besten installierst, hängt vom Betriebssystem ab. Hier findest du die jeweilige Anleitung:
+
 - [Windows](install_choco_windows.md)
 - [macOS](install_homebrew_macos.md)
 
 ## Packages
+>
 > [!NOTE]
 > Ein Package in Python ist eine Sammlung von Modulen, die bestimmte Funktionen und Werkzeuge enthalten. Ein Modul ist einfach eine Datei, die Python-Code enthält, und ein Package organisiert mehrere dieser Module in einer Struktur, die es einfacher macht, wiederverwendbare Codeblöcke zu verwalten.
 >
@@ -19,16 +21,19 @@ Wie du Python am besten installierst, hängt vom Betriebssystem ab. Hier findest
 Um neue Packages zu installieren, nutze `uv`. UV ist ein Paketmanager für Python, der es dir ermöglicht, Packages aus dem Python Package Index (PyPI) zu installieren und zu verwalten.
 
 Um ein Package zu installieren, öffne das Terminal (auf Windows heisst es "Eingabeaufforderung") im Projektordner und führe folgenden Befehl aus:
+
 ```sh
 uv add <PACKAGE1> <PACKAGE2> <PACKAGE3>
 ```
 
 Beispiel: Um das `jupyter`- und `numpy`-Package zu installieren:
+
 ```sh
 uv add numpy jupyter
 ```
 
 Falls im Ordner noch kein Python-Projekt existiert, initialisiere es zuerst mit folgendem Befehl:
+
 ```sh
 uv init
 ```
@@ -36,6 +41,7 @@ uv init
 Das erstellt ein `pyproject.toml`-File, in welchem die installierten Packages und deren Versionen gespeichert werden. So kannst du jederzeit nachvollziehen, welche Packages in deinem Projekt installiert sind.
 
 ## Installation der IDE
+>
 > [!NOTE]
 > Eine **IDE** (Integrated Development Environment) ist eine Software, die Programmierer unterstützt, Code zu schreiben, zu testen und auszuführen. Sie bietet Werkzeuge wie einen Texteditor, Debugging-Tools und oft eine grafische Oberfläche, um Programme effizienter zu entwickeln.
 >
@@ -44,11 +50,13 @@ Das erstellt ein `pyproject.toml`-File, in welchem die installierten Packages un
 Für das Modul `gpr - Grundkompetenz Programmieren` wird empfohlen, VS Code zu verwenden.
 
 macOS (Homebrew):
+
 ```sh
 brew install --cask visual-studio-code
 ```
 
 Windows (Chocolatey, PowerShell als Administrator):
+
 ```powershell
 choco install vscode -y
 ```
@@ -62,6 +70,7 @@ Du bist jetzt bereit, Python-Code zu schreiben und auszuführen!
 Erstelle im Explorer eine neue Datei mit dem Namen `beispiel.py`.
 
 Schreibe in die Datei folgenden Code:
+
 ```python
 a = 10
 b = 5
@@ -71,11 +80,13 @@ print(a + b)
 ```
 
 Öffne danach in VS Code ein Terminal (`Terminal` > `Neues Terminal`) und initialisiere das Projekt (das musst du nur einmal machen):
+
 ```sh
 uv init
 ```
 
 Führe danach aus:
+
 ```sh
 uv run python beispiel.py
 ```

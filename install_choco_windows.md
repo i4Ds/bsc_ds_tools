@@ -17,7 +17,7 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
 ```
 
-3. Führe nun den offiziellen Installationsbefehl von Chocolatey aus (in der **Administrator‑PowerShell**):
+1. Führe nun den offiziellen Installationsbefehl von Chocolatey aus (in der **Administrator‑PowerShell**):
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; `
