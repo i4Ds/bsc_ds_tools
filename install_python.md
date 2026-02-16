@@ -16,22 +16,24 @@ Wie du Python am besten Installiert, hängt vom Betriebsystem ab. Hier findest d
 >
 > Beispiel: Das "numpy"-Package enthält verschiedene Module, die mathematische Funktionen bereitstellen. Wenn du zum Beispiel mit grossen Zahlen oder Matrizen arbeiten möchtest, kannst du mit numpy bereits fertige Werkzeuge nutzen, anstatt diese selbst programmieren zu müssen.
 
-Um neue Packages zu installieren, nutze pip. Pip ist ein Paketmanager für Python, der es dir ermöglicht, Packages aus dem Python Package Index (PyPI) zu installieren und zu verwalten.
+Um neue Packages zu installieren, nutze `uv`. UV ist ein Paketmanager für Python, der es dir ermöglicht, Packages aus dem Python Package Index (PyPI) zu installieren und zu verwalten.
 
-Um ein Package zu installieren, öffne das Terminal (auf Windows heisst es "Eingabeaufforderung") und führe folgenden Befehl aus:
+Um ein Package zu installieren, öffne das Terminal (auf Windows heisst es "Eingabeaufforderung") im Projektordner und führe folgenden Befehl aus:
 ```sh
-pip3.12 install <PACKAGE1> <PACKAGE2> <PACKAGE3> ...
+uv add <PACKAGE1> <PACKAGE2> <PACKAGE3>
 ```
 
-Beispiel: Um das jupyter- und numpy-Package zu installieren, führe folgende Befehle aus:
+Beispiel: Um das `jupyter`- und `numpy`-Package zu installieren:
 ```sh
-pip3.12 install numpy jupyter 
+uv add numpy jupyter
 ```
 
-Es könnte sein, dass bei neueren Python-Versionen diese Befehle zu einem Fehler führen. Probiere in diesem Fall dies aus:
+Falls im Ordner noch kein Python-Projekt existiert, initialisiere es zuerst mit folgendem Befehl:
 ```sh
-pip3.12 install numpy jupyter --break-system-packages
+uv init
 ```
+
+Das erstellt ein `pyproject.toml`-File, in welchem die installierten Packages und deren Versionen gespeichert werden. So kannst du jederzeit nachvollziehen, welche Packages in deinem Projekt installiert sind.
 
 ## Installation der IDE
 > [!NOTE]
