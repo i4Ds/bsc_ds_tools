@@ -9,7 +9,9 @@
 
 ### Windows (Chocolatey)
 
-Wenn du Chocolatey bereits installiert hast:
+Installiere Chocolatey, falls du das nicht bereits getan hast: [install_choco_windows](install_choco_windows.md).
+
+Installiere nun git mit Chocolatey:
 
 ```powershell
 choco install git -y
@@ -17,7 +19,9 @@ choco install git -y
 
 ### macOS (Homebrew)
 
-Wenn du Homebrew bereits installiert hast:
+Installiere Homebrew, falls du das nicht bereits getan hast: [install_homebrew_macos](install_homebrew_macos.md).
+
+Installiere nun git mit Homebrew:
 
 ```sh
 brew install git
