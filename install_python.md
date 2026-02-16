@@ -84,6 +84,8 @@ Wenn du `beispiel.py` anpasst, musst du den Befehl `uv run python beispiel.py` j
 
 Glückwunsch! Du hast soeben deinen ersten Python-Code geschrieben und ausgeführt.
 
+Mehr kurze Beispiele findest du in der [Python Kurzreferenz](python_kurzreferenz.md).
+
 ### Erklärung zum Code
 
 > [!NOTE]
