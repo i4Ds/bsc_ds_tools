@@ -4,55 +4,11 @@ Python ist eine der beliebtesten Programmiersprachen der Welt. Sie wird in viele
 
 In diesem Guide zeigen wir dir, wie du Python auf deinem Computer installierst und einrichtest, um mit dem Programmieren zu beginnen.
 
-## Installation auf Windows
+## Python installieren
 
-Lade die neueste Version von Python 3.x direkt von der offiziellen Python-Website herunter:
-
-* [Python 3.12 Download (Windows Installer)](https://www.python.org/downloads/windows/)
-
-1. Öffne die Seite und klicke auf den entsprechenden Installer für dein System:
-
-   * **Windows installer (64-bit)** (empfohlen)
-   * Falls dein Computer noch 32-bit nutzt, wähle den **Windows installer (32-bit)**
-
-2. Führe die heruntergeladene `.exe`-Datei aus.
-   **Wichtig:** Setze im Installer den Haken bei
-   **"Add Python 3.x to PATH"**, bevor du auf **Install Now** klickst.
-
-3. Warte, bis die Installation abgeschlossen ist. Danach kannst du in der Eingabeaufforderung (CMD) prüfen, ob alles funktioniert:
-
-   ```sh
-   python --version
-   ```
-
-   oder
-
-   ```sh
-   py --version
-   ```
-
-Versionen von Python unter 3.12 sollten grundsätzlich nicht mehr verwendet werden.
-
-## Installation auf macOS
-
-Um Python auf macOS zu installieren, nutzen wir Homebrew.
-Was das ist und wie man es installiert, wird hier erklärt:
-- [Homebrew Installation auf macOS](install_homebrew_macos.md)
-
-Nutze Homebrew, um eine beliebige Python-Version zu installieren:
-Der Terminal-Befehl dafür lautet wie folgt:
-```sh
-brew install python@<VERSION>
-```
-
-Um beispielsweise Python 3.12 zu installieren, müsste man folgenden Befehl ausführen:
-```sh
-brew install python@3.12
-```
-
-![](https://i.imgur.com/w7OPLAx.gif)
-
-Versionen von Python unter 3.12 sollten grundsätzlich nicht mehr verwendet werden.
+Wie du Python am besten Installiert, hängt vom Betriebsystem ab. Hier findest du die jeweilige Anleitung:
+- [Windows](install_choco_windows.md)
+- [macOS](install_homebrew_macos.md)
 
 ## Packages
 > [!NOTE]
