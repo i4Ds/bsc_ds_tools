@@ -76,11 +76,13 @@ uv --version
 
 ```powershell
 uv python install --default 3.13
+uv python update-shell
 ```
 
-- `--default`: richtet `python` / `python3`‑Aufrufe auf diese Version aus  
+- `--default`: richtet `python` / `python3`‑Aufrufe auf diese Version aus.
 
-Wenn der Befehl erfolgreich war, kannst du die Installation testen:
+Wenn der Befehl erfolgreich war, kannst du die Installation testen.
+Beende dazu das Terminal (Powershell/CMD), starte es erneut und gebe anschliessen dies ein:
 
 ```powershell
 python --version
