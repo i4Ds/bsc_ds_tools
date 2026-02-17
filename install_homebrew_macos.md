@@ -69,7 +69,16 @@ Eine Python-Version installierst du so (z. B. 3.13). Mit `--default` landet si
 
 ```sh
 uv python install --default 3.13
+uv python update-shell
 ```
+
+Beende das Terminal, starte das Terminal erneut und gebe folgendes ein:
+
+```sh
+python --version
+```
+
+Wenn die Pythonversion angezeigt wird, dann hat es funktioniert.
 
 ### Python-Dateien ausführen
 
