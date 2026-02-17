@@ -11,12 +11,6 @@
    - Im Startmenü nach „PowerShell" suchen  
    - Rechtsklick → **Als Administrator ausführen**
 
-2. (Optional) Falls deine Execution Policy sehr streng ist, kannst du sie für diese Sitzung lockern:
-
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-```
-
 1. Führe nun den offiziellen Installationsbefehl von Chocolatey aus (in der **Administrator‑PowerShell**):
 
 ```powershell
