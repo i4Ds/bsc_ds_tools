@@ -65,9 +65,11 @@ Du bist jetzt bereit, Python-Code zu schreiben und auszuführen!
 
 ## Erste Codezeilen
 
+Erstelle einen Ordner `python_project`. Diesen Ordner wirst du anschliessend mit VS Code öffnen:
+
 Öffne VS Code und dann deinen Projektordner (`Datei` > `Ordner öffnen...`).
 
-Erstelle im Explorer eine neue Datei mit dem Namen `beispiel.py`.
+Erstelle im Explorer eine neue Datei mit dem Namen `example.py`.
 
 Schreibe in die Datei folgenden Code:
 
